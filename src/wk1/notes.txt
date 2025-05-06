@@ -1,0 +1,40 @@
+                    C#              vs              Java
+
+folders             namespaces                      packages
+extension           .cs                             .java
+
+naming conventions
+    classes         PascalCase                      PascalCase
+    methods         PascalCase                      camelCase
+
+    public static void Main(string[] args)       public static void main(String[] args)
+
+
+primitive data type
+                        a data type that starts with a lowercase letter
+                        represented by numbers  => integral
+
+reference data type
+                        starts with an uppercase letter
+                        stored in an Object
+
+Data types
+                    string                       String
+                    int                          int
+                    byte                         byte
+                    float                        float
+                    double                       double
+                    decimal                      Decimal: not a primitive datatype
+                    short                        short
+                    datetime                     does note exists
+                    bool                         boolean
+                    uint                         u : unsigned => does not exist in Java
+                    ushort
+                    sbyte
+                    char
+
+
+Important Objects
+
+                  Console                       System
+                                                newer version of Java use Console object. why?
