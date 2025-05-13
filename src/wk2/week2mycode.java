@@ -80,4 +80,10 @@ char answer = console.readLine().toLowerCase().trim().charAt(0); gets the first 
 
 class: how it looks, what it contains, how you can action it
 
+// we're going to create a class:
+expense: name, price
+budget: series/collection of expenses
+minLimit, maxLimit, limit
+maxOnetimePurchase
+
 */
