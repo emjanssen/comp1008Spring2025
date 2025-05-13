@@ -77,4 +77,7 @@ if (userValueEntered > Math.round(userValueEntered * 0.15)
 $%d for digit intstead of f for float; using Math.round() will round to a whole number, so we can use digit
 char answer = console.readLine().toLowerCase().trim().charAt(0); gets the first character in that string
 
+
+class: how it looks, what it contains, how you can action it
+
 */
