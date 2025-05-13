@@ -64,9 +64,49 @@ public class week2mycode {
         }
     }
 
+    public static void budget3() {
+        Budget budget = new Budget();
+
+        budget.setMinLimit(200);
+        budget.setMaxLimit(1000);
+        budget.setLimit(300);
+        System.out.println(budget.getLimit());
+
+        Console console = System.console();
+
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Please enter an expense name: ");
+            String expenseName = console.readLine();
+            System.out.println("Enter the monthly amount for " + expenseName + ": ");
+            double expenseAmount = Double.parseDouble(console.readLine());
+
+            Expense expense = new Expense();
+            expense.name = expenseName;
+            expense.setAmount(expenseAmount);
+            // creates new instance, sets the name, sets the amount
+
+            budget.expenses.add(expense);
+
+            for (Expense expense: budget.expenses) {
+                System.out.printf("Expense name = %s, Expense amount = $%.2f\n", expenses.name, expenses.getAmount());
+
+            }
+        }
+    }
+
+
     public static void main(String[] args) {
-        budget();
-        budget2();
+        // budget();
+        // budget2();
+        budget3();
+
+        // Expense expense = new Expense();
+        // expense.Name = "food";
+
+        // don't have the amount because it's marked private and thus only available inside the class
+        // we would need to do a getters and setters; these are used only for private instance variables
+        // gives us access to an otherwise inaccessible instance value
+        // getting is an action
     }
 }
 
